@@ -15,9 +15,11 @@ body {
 nav {
     background-color: blueviolet;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
+    height: 12vh;
 }
 
 nav .logo {
@@ -34,11 +36,25 @@ nav .logo h1 {
     cursor: pointer;
 }
 
+nav .search-bar input {
+    background-color: rgb(241, 241, 241);
+    border-color: black;
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+}
+
+nav .search-bar input::placeholder {
+    font-family: "Cyberpunk", serif;
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    margin-right: -1vw;
+}
+
 nav .menu {
     display: flex;
     list-style: none;
     margin-right: 5vh;
-    align-items: center;
 }
 
 nav .menu h3 {
