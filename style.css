@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Cyberpunk';
 	src: url('https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff2') format('woff2'),
-	url('https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2') format('truetype')
+	url('https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2') format('woff2')
 }
 
 body {
@@ -108,8 +108,5 @@ nav .menu h3 {
 
 .main .cartes .carte .nom-carte {
     cursor: pointer;
-}
-
-.main .cartes .carte .prix {
 }
 /* FIN DES CARTES */
