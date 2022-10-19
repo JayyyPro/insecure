@@ -13,7 +13,7 @@ class Sneaker {
 		$this->_prix = $prix;
 
 		$html = "<div class='carte'>";
-		$html .= "<div class='logo-carte'><img src='sneakers-image/" . $logocarte . "' alt='image-sneakers'></div>";
+		$html .= "<div class='logo-carte'><img src='../sneakers-image/" . $logocarte . "' alt='image-sneakers'></div>";
 		$html .= "<p class='nom-carte'>" . $nomcarte . "</p>";
 		$html .= "<p class='prix'>" . $prix . "€</p>";
 		$html .= "</div>";

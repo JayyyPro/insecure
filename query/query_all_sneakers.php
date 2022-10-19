@@ -1,6 +1,6 @@
 <?php
-include_once("db.inc.php");
-include_once('sneaker.class.php');
+include_once('../database/db.inc.php');
+include_once('../sneaker.class.php');
 
 try
 {
