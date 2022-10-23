@@ -18,7 +18,7 @@ try
 }
 catch(PDOException $err)
 {
-    echo "Erreur : " . $e->getMessage() . "<br>";
+    echo "Erreur : " . $err->getMessage() . "<br>";
     die();
 }
 ?>

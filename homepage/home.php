@@ -14,17 +14,17 @@
         <div class="logo">
             <img src="../nav-bar/DALL_E_2022-10-15_11.35.52-removebg-preview.png" 
             alt="logo" width="150" height="75" onclick="window.location='home.php'">
-            <h1>Insecure</h1>
+            <h1 onclick="window.location='home.php'">Insecure</h1>
         </div>
         <div class="search-bar">
-            <form action="../query/query_nom_carte.php">
-                <input type="search" placeholder="Rechercher" onkeyup="printSneakersWhoLettersAppear(this.value)">
+            <form>
+                <input id="search" type="search" placeholder="Rechercher" onkeyup="printSneakersResearch(this.value)">
             </form>
         </div>
         <div class="menu">
-            <h3 onclick="printSneakersWhoLettersAppear('dunk low')">Dunk Low</h3>
-            <h3 onclick="printSneakersWhoLettersAppear('jordan 4')">Jordan 4</h3>
-            <h3 onclick="printSneakersWhoLettersAppear('')">Sneakers</h3>
+            <h3 onclick="printSneakersResearch('dunk low')">Dunk Low</h3>
+            <h3 onclick="printSneakersResearch('jordan 4')">Jordan 4</h3>
+            <h3 onclick="printSneakersResearch('')">Sneakers</h3>
         </div>
     </nav>
     <!-- FIN DE LA BARRE DE NAVIGATION -->
@@ -44,6 +44,13 @@
     <!-- FIN DES CARTES -->
     </div>
     <!-- FIN DE LA CLASSE PRINCIPALE -->
+
+    <!-- DEBUT DU FOOTER -->
+    <footer>
+        <p>&copy; Insecure - 2022 - Tous droits réservés</p>
+        <p><img src="../footer/twitter.png" width="25" height="25"></p>
+    </footer>
+    <!-- FIN DU FOOTER -->
 </body>
 
 </html>

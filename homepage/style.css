@@ -15,6 +15,7 @@ body {
 nav {
     background-color: blueviolet;
     display: flex;
+    z-index: 1;
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -71,9 +72,10 @@ nav .menu h3 {
     background-color: brown;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 4vh;
+    margin-top: 7vh;
     margin-left: 3vw;
     margin-right: 3vw;
+    margin-bottom: 4vh;
 }
 
 .main #cartes .carte {
@@ -87,7 +89,6 @@ nav .menu h3 {
 }
 
 .main #cartes .carte .logo-carte {
-    transition: transform .4s;
     overflow: hidden;
     cursor: pointer;
     border-radius: 2vh;
@@ -100,6 +101,7 @@ nav .menu h3 {
 
 .main #cartes .carte .logo-carte img {
     transition: transform .4s;
+    z-index: auto;
     border-radius: 2vh;
     width: 19vw;
     height: 49vh;
@@ -115,3 +117,17 @@ nav .menu h3 {
 /* FIN DES CARTES */
 
 /* FIN DE LA ZONE PRINCIPALE */
+
+/* DEBUT DU FOOTER */
+footer {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw 3vh 5vw;
+}
+
+footer p img {
+    cursor: pointer;
+}
+/* FIN DU FOOTER */
